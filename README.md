@@ -162,7 +162,7 @@ Get-ADUser -Filter * -SearchBase "OU=Account,DC=ravikumar,DC=online" | Select Na
 Name         SamAccountName
 
 
-----         --------------
+
 
 
 John Doe     jdoe
