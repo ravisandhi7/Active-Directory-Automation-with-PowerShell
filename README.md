@@ -52,16 +52,10 @@ Key actions:
 Sets First Name, Last Name, Username
 
 
-Assigns User Principal Name (UPN)
-
-
 Places users into correct OU
 
 
-Enables account automatically
-
-
-Forces password change at first login
+![USERS](screenshots/USERS.png)
 
 
 2. Secure Password Handling
@@ -70,7 +64,17 @@ Forces password change at first login
 Passwords from CSV are converted to secure strings before AD creation.
 
 
-![USERS](screenshots/USERS.png)
+Forces password change at first login
+
+
+Enables account automatically
+
+
+Assigns User Principal Name (UPN)
+
+
+![AD_USERS](screenshots/AD_USERS.png)
+
 
 3. Inactive User Detection
 
@@ -78,10 +82,19 @@ Passwords from CSV are converted to secure strings before AD creation.
 Identifies users who have not logged in within a defined time period (e.g., 30 days).
 
 
+![DISABLE_INACTIVE_USERS](screenshots/DISABLE_INACTIVE_USERS_1.png)
+
+
+![DISABLE_INACTIVE_USERS](screenshots/DISABLE_INACTIVE_USERS_2.png)
+
+
 4. Reporting System
 
 
 Generates CSV reports for inactive users for auditing purposes.
+
+
+![INACTIVE_USERS_REPORT](screenshots/INACTIVE_USERS_REPORT.png)
 
 
 5. Logging
@@ -97,6 +110,8 @@ Errors
 
 
 User actions
+
+![LOG_FILE](screenshots/LOG_FILE.png)
 
 
 📜 Sample User CSV Format
@@ -159,13 +174,10 @@ Alice Wonder awonder
 Chris Green  cgreen
 
 
+![GET_AD_USERS](screenshots/GET_AD_USERS.png)
+
+
 🔐 Security Notes
-
-
-Passwords are stored in CSV only for lab purposes
-
-
-Production environments should use secure vaults (e.g., Azure Key Vault)
 
 
 Execution policy is set temporarily for script execution
@@ -186,25 +198,10 @@ Real-world IT admin scripting
 Automation of identity lifecycle tasks
 
 
-🧠 Future Improvements
-
-
-Email notifications for inactive users
-
-
-GUI-based user creation tool
-
-
-Integration with Microsoft Entra ID (Azure AD)
-
-
-Scheduled task automation via Task Scheduler
-
-
 👨‍💻 Author
 
 
 Ravi Kumar
 
 
-Windows Server & Active Directory Automation Lab Project
+Windows Server & Active Directory Automation Project
