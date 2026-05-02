@@ -37,39 +37,6 @@ PowerShell
 CSV data input
 
 
-Group Policy / OU structure
-
-
-📂 Project Structure
-
-
-C:\AD-Automation
-
-
-│
-
-
-├── scripts
-
-
-│
-
-
-├── New-ADUsers.ps1
-
-
-│
-
-├── Disable-InactiveUsers.ps1
-│
-├── data
-│   ├── users.csv
-│
-├── logs
-│   ├── logs.txt
-│
-├── reports
-│   ├── InactiveUsersReport.csv
 🚀 Features
 1. Bulk User Creation
 
