@@ -49,7 +49,7 @@ Creates multiple AD users from a CSV file.
 Key actions:
 
 
-Sets First Name, Last Name, Username
+Sets First Name, Last Name, Username, Password
 
 
 Places users into correct OU
