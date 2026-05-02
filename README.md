@@ -44,10 +44,23 @@ Group Policy / OU structure
 
 
 C:\AD-Automation
+
+
 │
+
+
 ├── scripts
-│   ├── New-ADUsers.ps1
-│   ├── Disable-InactiveUsers.ps1
+
+
+│
+
+
+├── New-ADUsers.ps1
+
+
+│
+
+├── Disable-InactiveUsers.ps1
 │
 ├── data
 │   ├── users.csv
