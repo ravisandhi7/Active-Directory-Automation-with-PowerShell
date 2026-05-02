@@ -38,6 +38,8 @@ CSV data input
 
 
 🚀 Features
+
+
 1. Bulk User Creation
 
 
@@ -67,6 +69,8 @@ Forces password change at first login
 
 Passwords from CSV are converted to secure strings before AD creation.
 
+
+![USERS](screenshots/USERS.png)
 
 3. Inactive User Detection
 
