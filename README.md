@@ -88,6 +88,9 @@ Identifies users who have not logged in within a defined time period (e.g., 30 d
 ![DISABLE_INACTIVE_USERS](screenshots/DISABLE_INACTIVE_USERS_2.png)
 
 
+![DISABLE_INACTIVE_USERS](screenshots/DISABLE_INACTIVE_USERS_POWERSHELL.png)
+
+
 4. Reporting System
 
 
